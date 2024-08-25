@@ -23,6 +23,8 @@ async function addCategories(){
     const categories = CategoryModel.find();
     if(!categories || (await categories).length==0){
         await CategoryModel.insertMany([{name:'Books'}, {name:'Clothing'},{name:'Electronics'}])
+        console.log("Categories added");
+    }else{
+        console.log('categories already exists');
     }
-    console.log("Categories added");
 }
