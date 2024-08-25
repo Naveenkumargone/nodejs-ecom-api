@@ -384,3 +384,4 @@
  Fri Sep 22 2023 16:49:39 GMT+0530 (India Standard Time) - /api/likes?id=650d62420225f004927738a7&type=Category - {}
  Fri Sep 22 2023 16:49:52 GMT+0530 (India Standard Time) - /api/likes?id=650d62420225f004927738a7&type=Category - {}
  Fri Sep 22 2023 16:50:42 GMT+0530 (India Standard Time) - /api/likes?id=64be376aea1291b9988dc4f2&type=Product - {}
+ Sun Aug 25 2024 15:44:31 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"naveenkumar gone","email":"naveen123@gmail.com","password":"Password@12345","type":"Customer"}

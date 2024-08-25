@@ -56,7 +56,7 @@ export default class UserController {
         .send('Incorrect Credentials');
     }else{
       // 2. Compare password with hashed password.
-      const result = await bcrypt.compare(req.body.password, user.password);
+      const result = bcrypt.compare(req.body.password, user.password);
       if(result){
  // 3. Create token.
  const token = jwt.sign(
